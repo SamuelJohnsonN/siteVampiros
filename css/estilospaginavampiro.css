@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/*Imagem de Khusen Rustamov por Pixabay */
+
+body{
+	width: 100%;
+	height:100%;
+	margin: 0 auto;
+	
+}
+
+header{
+	height:600px;
+}
+
+/* Div Contatos - telefone*/
+.informações{
+	box-sizing: border-box;
+	width:100%;
+	height:15px;
+	background-color: black;
+	font-size:15px;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+.contatos {
+	float: left;
+	width: 8%;
+	height:100%;	
+	margin:0;
+	padding:0;
+	margin-left: 40px;
+}
+.contatos figure {
+	height:100%;
+	margin:0;
+	padding:0;
+	float: left;
+		
+	
+}
+.contatos figure img {
+	height:100%;
+}
+.contatos p{
+	height:100%;
+	margin:0;
+	padding:0;
+	float: right;
+}
+
+
+/* Div Contatos - mapa*/
+.mapa {
+	width: 4%;		
+}
+.mapa  p a {
+	color: white;
+	text-decoration: none	;
+}
+.mapa  p a:visited {
+	color: white;
+}
+
+
+/* HEADER - Logos*/
+.logo {
+	width:100%;
+	height:22%;
+	background-color: #a4b7d3;	
+}
+
+.img-logo{	
+	float: left;		
+}
+
+.vampiro-logo {
+	margin-left:120px;
+	padding:0;	
+}
+.redes {
+	margin: 0;
+	padding:0;
+}
+.redes-sociais ul li {
+	display: inline-block;
+	margin-left:20px;
+		
+}
+.redes-sociais {
+	width:18%;
+	float: right;
+	position: relative;
+	right: 15%;
+	margin-top:30px;
+}
+
+.redes-sociais ul #tel{
+	position: relative;
+	left: 20px;
+}
+
+/* HEADER - Menus*/
+
+.menus{
+	background-color: white;
+	width: 100%;
+	height: 12%;
+	border-bottom: 5px solid #efefef;
+	font-size: 18px;
+	color:#8b8b8b;
+	
+}
+a:visited{
+	color:#8b8b8b;
+}
+
+
+
+.link-menus ul li {
+	display: inline-block;
+	margin-left: 7%;
+	margin-right:2%;	
+}
+.link-menus ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.link-menus ul {
+	margin-top: 0;
+	margin-bottom:0;
+	padding:1.7% 0 1.5% 0;	
+}
+
+.div-img-menu {
+	width:100%;
+	height:72%;
+	margin-top: 0;
+	
+}
+.figure-img-menu {
+	margin: 0;
+	height:100%;
+	width:100%;
+}
+#img-menu-principal{
+	width:100%;
+	height:100%;
+}
+
+
+	
