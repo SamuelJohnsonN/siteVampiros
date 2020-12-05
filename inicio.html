@@ -10,60 +10,69 @@
 </head>
 
 <body>
-
-  <div id="inicio">
-
-    <header>
-      <div class="informações">
-        <div class="contatos">
-          <figure>
-            <img src="imagens/telefone.png" alt="telefone">
-          </figure>
-          <p>Nosso Contato</p>
-        </div>
-
-        <div class="contatos mapa">
-          <figure>
-            <img src="imagens/mapa.png" alt="mapa">
-          </figure>
-          <p> <a href="https://www.google.com/maps/@45.514903,25.3671634,3a,15y,166.56h,70.69t/data=!3m8!1e1!3m6!1sAF1QipO5QTbYu3DeullB-X_sdXXwAKnIZrEoPZ__Kbko!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO5QTbYu3DeullB-X_sdXXwAKnIZrEoPZ__Kbko%3Dw203-h100-k-no-pi-0-ya176.47723-ro-0-fo100!7i13000!8i6500">Local</a></p>
-        </div>
-
-
-      </div>
-
-      <div class="logo">
-        <figure class="img-logo">
-          <img class="vampiro-logo" src="imagens/logo-vamp.png" alt="vampiro-logo">
+<div class="comeco-header">
+  <header>
+    <div class="informações">
+      <div class="contatos">
+        <figure>
+          <img src="imagens/telefone.png" alt="telefone">
         </figure>
+        <p>Nosso Contato</p>
+      </div> <!-- div contatos -->
 
-        <figure class="redes-sociais">
-          <ul>
-            <li><a href=""><img class="redes" src="imagens/face-logo-50px.png" alt="facebook"></a></li>
-            <li><a href=""><img class="redes" src="imagens/instagram-50px.png" alt="instagran"></a></li>
-          </ul>
+      <div class="contatos mapa">
+        <figure>
+          <img src="imagens/mapa.png" alt="mapa">
         </figure>
+        <p> <a
+            href="https://www.google.com/maps/@45.514903,25.3671634,3a,15y,166.56h,70.69t/data=!3m8!1e1!3m6!1sAF1QipO5QTbYu3DeullB-X_sdXXwAKnIZrEoPZ__Kbko!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO5QTbYu3DeullB-X_sdXXwAKnIZrEoPZ__Kbko%3Dw203-h100-k-no-pi-0-ya176.47723-ro-0-fo100!7i13000!8i6500">Local</a>
+        </p>
+      </div> <!-- div contatos-mapa -->
+    </div> <!-- div informacao -->
 
-      </div>
+    <div class="logo">
+      <figure class="img-logo">
+        <img class="vampiro-logo" src="imagens/logo-vamp.png" alt="vampiro-logo">
+      </figure>
 
-      <div class="menus">
-        <nav class="link-menus">
-          <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Saiba Mais</a></li>
-            <li><a href="">Fale Conosco</a></li>
-            <li><a href="">Fique por Dentro</a></li>
-          </ul>
-        </nav>
-      </div>
+      <figure class="redes-sociais">
+        <ul>
+          <li><a href=""><img class="redes" src="imagens/face-logo-50px.png" alt="facebook"></a></li>
+          <li><a href=""><img class="redes" src="imagens/instagram-50px.png" alt="instagran"></a></li>
+        </ul>
+      </figure>
+    </div> <!-- div logo -->
 
-      <div class="div-img-menu">
-        <figure class="figure-img-menu">
-          <img id="img-menu-principal" src="imagens/vampiros.jpg" alt="Vampiros, imagem de Khusen Rustamov">
-        </figure>
-      </div>
-    </header>
+    <div class="menus">
+      <nav class="link-menus">
+        <ul>
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Saiba Mais</a></li>
+          <li><a href="">Fale Conosco</a></li>
+          <li><a href="">Fique por Dentro</a></li>
+        </ul>
+      </nav>
+    </div> <!-- div menu -->
+  </header>
+</div> <!-- div comeco-header -->
 
+<div class="carrossel">
+  <ul class="slide">
+    <li>
+      <input type="radio" name="fotos" id="foto1" checked>
+      <label for="foto1" name='label-fotos'></label>
+      <img src="imagens/vampiros.jpg" alt="vampiros">
+    </li>
+    
+    <li>
+      <input type="radio" name="fotos" id="foto2">
+      <label for="foto2" name='label-fotos'></label>
+      <img src="imagens/caçador.jpg" alt="caçador">
+    </li>        
+  </ul>
+</div> <!-- div carrossel -->
+
+<script src="javascript/scriptpagvampiros.js"></script>
 </body>
 
 </html>
