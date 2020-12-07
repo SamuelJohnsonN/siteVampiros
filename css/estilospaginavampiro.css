@@ -142,7 +142,7 @@ a:visited{
 }
 
 
-/* BODY - SLIDE*/
+/* BODY - SLIDE */
 
 .slide {
 	display: block;
@@ -157,7 +157,7 @@ a:visited{
 }
 .slide img {
 	margin: auto;
-	width: 100.7%;
+	width: 100%;
 	vertical-align: top;
 }
 .slide input {
@@ -178,27 +178,14 @@ a:visited{
 	z-index: 10;	
 	
 }
-
-
-/*
-.slide input {
-	position: absolute;
-	bottom: 30px;
-	margin-left:45%;	
-	cursor: pointer;
-	display: block;
-	height: 17px;
-	width: 17px;
-	z-index: 10;
-	background-color: pink;	
-}
-*/
-
 .slide li:nth-child(1) label {
 	left: 10px;
 }
 .slide li:nth-child(2) label {
 	left: 50px;
+}
+.slide li:nth-child(3) label {
+	left: 90px;
 }
 
 .slide img {
