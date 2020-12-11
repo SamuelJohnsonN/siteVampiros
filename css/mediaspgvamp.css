@@ -1,0 +1,24 @@
+@media screen and (max-width:1350px) {
+    .contatos {
+        width: 10%;
+       
+    }
+    .mapa {
+        width: 5%;		
+    }
+}
+
+@media screen and (max-width:1044px) {
+    .contatos {
+        width: 13%;
+       
+    }
+    .mapa {
+        width: 7%;		
+    }
+    .contatos p{
+        font-size: 12px;
+       
+    }
+    
+}
