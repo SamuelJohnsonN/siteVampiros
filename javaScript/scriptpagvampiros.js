@@ -2,6 +2,9 @@ let label_carrossel = document.getElementsByClassName('label-fotos')
 
 let img_carrocel = document.getElementsByName('img-carrossel')
 
+window.onload = function() {
+    label_carrossel[0].style.backgroundColor = "purple";
+}
 
 
 label_carrossel[0].addEventListener('click', function () {
