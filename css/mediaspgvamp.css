@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (max-width:1044px) {
+@media screen and (max-width:1150px) {
     .contatos {
         width: 13%;
        
@@ -20,5 +20,41 @@
         font-size: 12px;
        
     }
+
+    .imagem-abaixo{	
+        position: relative;
+        top: 320px;	
+    }
+
+    .imagem-texto img {
+        transform: translateX(45%);
+        box-shadow: 2px 5px 8px black;
+        border-radius: 20px;
+    }
+    #quadro {
+       position: relative;
+       right: 100px;
+       padding: 0px;
+      
+       
+    }
+    #anime {
+        position: relative;
+        left: 100px;        
+        
+     }
+     main{        
+        top: 620px;        
+    }
     
+}
+
+@media screen and (max-width:1002px) { 
+    .texto-principal{
+        width: 100%;
+    }
+    .imagem-texto img {
+        transform: translateX(70%);
+        
+    }
 }
