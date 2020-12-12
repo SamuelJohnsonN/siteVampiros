@@ -158,6 +158,8 @@ a:visited{
 	position: absolute;
 
 }
+
+
 .slide img {
 	margin: auto;
 	width: 100%;
@@ -263,3 +265,23 @@ h3 {
 	top: 70px;	
 }
 
+/* Texto Secundário*/
+
+.texto_secundáro {
+	background-color: khaki;
+	position: absolute;
+	top: 1250px;
+	width: 100%;
+}
+.div_do_texto_secundáro{
+	margin: auto;
+	width: 80%;
+}
+
+.imagem_texto_secundáro {
+	width:326px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 30px;
+	border: 1px solid black;
+}
