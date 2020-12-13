@@ -279,8 +279,9 @@ h3 {
 }
 
 .imagem_texto_secundáro {
+	vertical-align: top;
 	width:350px;
-	height:340px;
+	height:360px;
 	display: inline-block;
 	margin-left: 20px;
 	margin-top: 30px;
@@ -367,7 +368,7 @@ footer{
 	padding-left: 15px;
 }
 
-.locais::before, #telefone::before{
+.locais::before, #github::before{
 	content: "";
 	width: 17px;
 	height: 24px;
@@ -381,9 +382,19 @@ footer{
 	background-image: url("../imagens/local.png");
 }
 
-#telefone::before{
-	background-image: url("../imagens/telefoneico.png");
+#github::before{
+	background-image: url("../imagens/ico-github.png");
 }
+#github a:visited {
+	color: white;
+}
+
+#github a {
+	color: white;
+	text-decoration: none;
+}
+
+
 #footer-2 {
 	height:80px;
 	text-align: center;
