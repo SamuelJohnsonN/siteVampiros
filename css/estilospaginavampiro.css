@@ -18,9 +18,6 @@ header {
 	
 }
 
-
-
-
 /* Div Contatos - telefone*/
 .informações{
 	box-sizing: border-box;
@@ -268,20 +265,132 @@ h3 {
 /* Texto Secundário*/
 
 .texto_secundáro {
-	background-color: khaki;
+	background-color: #eeeeee;
 	position: absolute;
 	top: 1250px;
 	width: 100%;
+	
 }
 .div_do_texto_secundáro{
 	margin: auto;
-	width: 80%;
+	margin-left: 8%;
+	box-sizing: border-box;
+	
 }
 
 .imagem_texto_secundáro {
-	width:326px;
+	width:350px;
+	height:340px;
 	display: inline-block;
 	margin-left: 20px;
 	margin-top: 30px;
 	border: 1px solid black;
+}
+.imagem_texto_secundáro img{
+	margin:12px;
+}
+.imagem_texto_secundáro .titulo{
+	font-weight: bolder;
+	margin-bottom: 15px;
+	text-indent:7px;
+}
+
+.imagem_texto_secundáro .corpo{
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: justify;
+}
+
+.seta::before {
+	content:'';
+	width: 100%;
+	display: inline-block;
+	height: 52px;
+	background: #ffffff;
+	background-image: url("../imagens/setinha.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.espacamento-rodape {
+	margin-bottom: 60px;
+}
+
+/* Footer */
+
+footer{
+	position: absolute;
+	top: 325%;
+	width: 100%;	
+
+}
+.rodape {
+	background-color: #4d504d;
+	color: white;
+}
+.rodape h3 {
+	color: white;
+}
+
+
+.div-rodape {
+	box-sizing: border-box;	
+	display: inline-block;
+	width: 218px;
+	height: 284px;
+	margin-top:30px;
+	margin: 23px;
+	vertical-align: top;
+	transform: translateX(50%);
+	font-size: 15px;
+	
+}
+
+.div-rodape h3 {
+	margin-bottom: 15px;
+}
+.popular-post p {
+	padding-bottom: 15px;
+}
+
+.get p {
+	padding-bottom: 15px;
+}
+.clock::before{
+	content: "";
+	width: 15px;
+	height:15px;
+	display: inline-block;
+	background-image: url("../imagens/clock.png");
+	float: left;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+}
+
+.locais::before, #telefone::before{
+	content: "";
+	width: 17px;
+	height: 24px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	padding-left: 5px;
+}
+
+.locais::before {
+	background-image: url("../imagens/local.png");
+}
+
+#telefone::before{
+	background-image: url("../imagens/telefoneico.png");
+}
+#footer-2 {
+	height:80px;
+	text-align: center;
+	background-image: url("../imagens/footer2.png");
+	color: #bfbfbf;
+}
+
+#paragrafo-footer2 {
+	padding-top: 18px;
 }
