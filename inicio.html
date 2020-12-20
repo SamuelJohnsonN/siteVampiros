@@ -1,208 +1,224 @@
 <!DOCTYPE html>
-
-<html lang="pt-br">
+<html lang="pt-Br">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" type="text/css" href="css/estilospaginavampiro.css" />
-  <link rel="stylesheet" type="text/css" href="css/mediaspgvamp.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vampiros</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="icon" href="imagens/vampiro-mobile-icon.jpg">
+  <link rel="stylesheet" href="css/estilospaginavampiro.css">
+  <link rel="stylesheet" type="text/css" href="css/mediaspgvamp.css">
 </head>
 
 <body>
   <div class="comeco-header">
     <header>
-      <div class="informações">
-        <div class="contatos">
-          <figure>
-            <img src="imagens/telefone.png" alt="telefone">
-          </figure>
-          <p id="nosso_contato">Nosso Contato</p>
-        </div> <!-- div contatos -->
-
-        <div class="contatos mapa">
-          <figure>
-            <img src="imagens/mapa.png" alt="mapa">
-          </figure>
-          <p> <a
-              href="https://www.google.com/maps/@45.514903,25.3671634,3a,15y,166.56h,70.69t/data=!3m8!1e1!3m6!1sAF1QipO5QTbYu3DeullB-X_sdXXwAKnIZrEoPZ__Kbko!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO5QTbYu3DeullB-X_sdXXwAKnIZrEoPZ__Kbko%3Dw203-h100-k-no-pi-0-ya176.47723-ro-0-fo100!7i13000!8i6500">Local</a>
-          </p>
-        </div> <!-- div contatos-mapa -->
-      </div> <!-- div informacao -->
-
-      <div class="logo">
-        <figure class="img-logo">
-          <img class="vampiro-logo" src="imagens/logo-vamp.png" alt="vampiro-logo">
+      <div class="contatos tamanhoMax">
+        <p class="nosso-contato corBranca"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>Nosso Contato
+        </p>
+        <p class="local corBranca"><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>Local</p>
+      </div>
+      <div class="div-logo tamanhoMax">
+        <figure class="logo">
+          <img id="imagem-header-logo" src="imagens/logo-vamp.png" alt="logo">
         </figure>
+        <div class="redes-sociais tamanhoMax">
+          <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+          <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+        </div>
+      </div> <!-- div "div-logo" -->
 
-        <figure class="redes-sociais">
+      <!-- MENUS -->
+      <div class="menus tamanhoMax">
+        <nav class="link-menus centralizado tamanhoMax">
           <ul>
-            <li><a href=""><img class="redes" src="imagens/face-logo-50px.png" alt="facebook"></a></li>
-            <li><a href=""><img class="redes" src="imagens/instagram-50px.png" alt="instagran"></a></li>
-          </ul>
-        </figure>
-      </div> <!-- div logo -->
-
-      <div class="menus">
-        <nav class="link-menus">
-          <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Saiba Mais</a></li>
-            <li><a href="">Fale Conosco</a></li>
-            <li><a href="">Fique por Dentro</a></li>
+            <li class="tamanhoMax"><a class="corTexto" href="#">Inicio</a></li>
+            <li class="tamanhoMax"><a class="corTexto" href="#">Saiba Mais</a></li>
+            <li class="tamanhoMax"><a class="corTexto" href="#">Fale Conosco</a></li>
+            <li class="tamanhoMax"><a class="corTexto" href="#">Fique por Dentro</a></li>
           </ul>
         </nav>
       </div> <!-- div menu -->
     </header>
-  </div> <!-- div comeco-header -->
+  </div>
+  <!--div comeco-header-->
 
-  <div class="carrossel">
-    <ul class="slide">
+  <!--CARROSSEL-->
+
+  <div class="carrossel block">
+    <ul class="slide block">
       <li>
         <input type="radio" name="fotos" id="foto1" checked>
-        <label for="foto1" class='label-fotos'></label>
+        <label for="foto1" class='label-fotos block'></label>
         <img id="img-vamp" src="imagens/vampiros.jpg" class="img-f" alt="vampiros">
       </li>
 
       <li>
         <input type="radio" name="fotos" id="foto2">
-        <label for="foto2" class='label-fotos'></label>
+        <label for="foto2" class='label-fotos block'></label>
         <img id="img-caçador" src="imagens/caçador.jpg" class="img-f" alt="caçador">
       </li>
       <li>
         <input type="radio" name="fotos" id="fotos3">
-        <label for="fotos3" class="label-fotos"></label>
+        <label for="fotos3" class="label-fotos block"></label>
         <img id="img-child" src="imagens/vampiro-child.jpg" class="img-f" alt="child">
       </li>
     </ul>
   </div> <!-- div carrossel -->
 
+  <!--TEXTO PRINCIPAL-->
   <main>
     <div class="texto-principal">
-      <h1>Vampiros existem e você precisa saber</h1>
-      <p class="paragrafo-principal">
-        Os vampiros da realidade, são pessoas comuns, que levam uma vida comum, fazem coisas comuns e, no final do dia,
-        bebem um pouquinho de sangue. Ou mais ou menos isso.
-        O fato é que eles são completamente diferentes da ficção.</p>
-
-      <div class="imagem-texto imagem-abaixo" id="anime">
-        <img src="imagens/anime-vampiro.jpg">
-        <h3><b>Nos Animes</b> - Hellsing</h3>
-        <p class="paragrafo-bloco-texto">Passa-se na Inglaterra dos dias atuais, ameaçada por criaturas sobrenaturais,
-          é protegida pela Ordem Real dos Cavaleiros Protestantes. O protagonista Alucard, é um vampiro poderoso. </p>
-      </div>
-      <div class="imagem-texto">
-        <img src="imagens/filme-vampiro.jpg">
-        <h3><b>Nos Filmes</b> - Dracula (1958)</h3>
-        <p class="paragrafo-bloco-texto">O estudioso de vampiros Dr. Van Helsing chega à cidade e descobre que Jonathan
-          Harker foi mordido pelo
-          Drácula. Ele sai em busca da sua esposa
-          Lucy e sua família, que agora também estão na mira do Conde. </p>
-      </div>
-      <div class="imagem-texto imagem-abaixo" id="quadro">
-        <img src="imagens/mini-Edvard-Munch-Vampiro-II.jpg">
-        <h3><b>Na Pintura</b> - Vampire II</h3>
-        <p class="paragrafo-bloco-texto"> Pintado por: Edvard Munch. Em Vampiro II, pintado entre 1895 e 1902, uma
-          mulher de cabelos cor de fogo
-          envolve os braços
-          em torno de um homem que abaixou a cabeça em seu colo. </p>
-      </div>
+      <section class="txt-inicial">
+        <h1 class="fonteMaior corTexto centralizado">Vampiros existem e você precisa saber</h1>
+        <p class="paragrafo-principal fontemenor justificado">
+          Os vampiros da realidade, são pessoas comuns, que levam uma vida comum, fazem coisas comuns e, no final do
+          dia,
+          bebem um pouquinho de sangue. Ou mais ou menos isso.
+          O fato é que eles são completamente diferentes da ficção.</p>
+      </section>
+      <section class="txt-secundário">
+        <article class="imagem-texto imagem-abaixo" id="anime">
+          <img src="imagens/anime-vampiro.jpg">
+          <h3 class="fonteMaior corTexto centralizado"><b>Nos Animes</b> - Hellsing</h3>
+          <p class="paragrafo-bloco-texto fontemenor justificado">Passa-se na Inglaterra dos dias atuais, ameaçada por
+            criaturas sobrenaturais,
+            é protegida pela Ordem Real dos Cavaleiros Protestantes. O protagonista Alucard, é um vampiro poderoso. </p>
+        </article>
+        <article class="imagem-texto">
+          <img src="imagens/filme-vampiro.jpg">
+          <h3 class="fonteMaior corTexto centralizado"><b>Nos Filmes</b> - Dracula (1958)</h3>
+          <p class="paragrafo-bloco-texto fontemenor justificado">O estudioso de vampiros Dr. Van Helsing chega à cidade
+            e descobre que Jonathan
+            Harker foi mordido pelo
+            Drácula. Ele sai em busca da sua esposa
+            Lucy e sua família, que agora também estão na mira do Conde. </p>
+        </article>
+        <article class="imagem-texto imagem-abaixo" id="quadro">
+          <img src="imagens/mini-Edvard-Munch-Vampiro-II.jpg">
+          <h3 class="fonteMaior corTexto centralizado"><b>Na Pintura</b> - Vampire II</h3>
+          <p class="paragrafo-bloco-texto fontemenor justificado"> Pintado por: Edvard Munch. Em Vampiro II, pintado
+            entre 1895 e 1902, uma
+            mulher de cabelos cor de fogo
+            envolve os braços
+            em torno de um homem que abaixou a cabeça em seu colo. </p>
+        </article>
+      </section>
     </div> <!-- div texto-principal -->
   </main>
 
+  <!--TEXTO SECUNDÁRIO-->
+
   <div class="texto_secundáro seta">
-    <div class="div_do_texto_secundáro">
-      <div class="imagem_texto_secundáro">
-        <img src="imagens/castelo-bran.jpg" alt="Castelo de Bran">
-        <p class="titulo">Castelo de Bran</p>
-        <p class="corpo">Localizado próximo de Bran, é um monumento nacional,
-           marco histórico da Roménia. A fortaleza situa-se na fronteira 
-           entre a Transilvânia e a Valáquia.</p>
-      </div>
-      <div class="imagem_texto_secundáro">
-        <img src="imagens/dublin-irlanda.jpg" alt="Dublin, Irlanda">
-        <p class="titulo">Dublin, Irlanda</p>
-        <p class="corpo">Bram Stoker nasceu em 1847, em Clontarf, 
-          Dublin. Com o centenário de sua morte, a cidade recebeu o 
-          lançamento de um festival em homenagem ao escritor.</p>
-      </div>
-      <div class="imagem_texto_secundáro">
-        <img src="imagens/forks.png" alt="Forks">
-        <p class="titulo">Forks, Estados Unidos</p>
-        <p class="corpo">A pequena cidade de Forks, chuvosa, foi alçada 
-          ao rol da fama depois que se tornou o cenário para as 
-          histórias da saga Crepúsculo, de Stephenie Meyer.</p>
-      </div>
-    </div> <!-- div div_do_texto_secundáro -->
+    <article class="div_do_texto_secundáro inline-block tamanhoMax inline-block tamanhoMax ">
 
-    <div class="div_do_texto_secundáro espacamento-rodape">
-      <div class="imagem_texto_secundáro">
-        <img src="imagens/whitby.png" alt="Whitby">
-        <p class="titulo">Whitby, Inglaterra</p>
-        <p class="corpo">É o local onde o vampiro Drácula se instala ao 
-          chegar a Inglaterra. A cidade abriga o Festival Internacional 
-          de Filmes Bram Stoker, e o Withnby Goth.</p>
-      </div>
-      <div class="imagem_texto_secundáro">
-        <img src="imagens/vampire-cafe.png" alt="Vampire Café">
-        <p class="titulo">Vampire Café, Tóquio</p>
-        <p class="corpo">O Café Vampiro contém cortinas de 
-          veludo vermelho, espelhos quebrados. Os clientes ainda 
-          podem esperar uma série de olhos vermelhos de seus funcionários.</p>
-      </div>
-      <div class="imagem_texto_secundáro">
-        <img src="imagens/londo-tours.png" alt="Tour do horror">
-        <p class="titulo">Tour do horror em Londres, Inglaterra</p>
-        <p class="corpo">O London Horror tours oferece diversas caminhadas
-          pela cidade. Entre os temas estão vampiros e fantasmas, 
-          em um passeio que começa na estação Highgate.</p>
-      </div>
-    </div>
+      <a href="#"><img src="imagens/castelo-bran.jpg" alt="Castelo de Bran"></a>
+
+      <p class="titulo">Castelo de Bran</p>
+      <p class="corpo justificado fontemenor">Localizado próximo de Bran, é um monumento nacional,
+        marco histórico da Roménia. A fortaleza situa-se na fronteira
+        entre a Transilvânia e a Valáquia.</p>
+    </article>
+
+    <article class="div_do_texto_secundáro inline-block tamanhoMax">
+
+      <a href="#"><img src="imagens/castelo-bran.jpg" alt="Castelo de Bran"></a>
+
+      <p class="titulo">Castelo de Bran</p>
+      <p class="corpo justificado fontemenor ">Localizado próximo de Bran, é um monumento nacional,
+        marco histórico da Roménia. A fortaleza situa-se na fronteira
+        entre a Transilvânia e a Valáquia.</p>
+    </article>
+
+    <article class="div_do_texto_secundáro inline-block tamanhoMax">
+
+      <a href="#"><img src="imagens/castelo-bran.jpg" alt="Castelo de Bran"></a>
+
+      <p class="titulo">Castelo de Bran</p>
+      <p class="corpo justificado fontemenor">Localizado próximo de Bran, é um monumento nacional,
+        marco histórico da Roménia. A fortaleza situa-se na fronteira
+        entre a Transilvânia e a Valáquia.</p>
+    </article>
+
+    <article class="div_do_texto_secundáro inline-block tamanhoMax">
+
+      <a href="#"><img src="imagens/castelo-bran.jpg" alt="Castelo de Bran"></a>
+
+      <p class="titulo">Castelo de Bran</p>
+      <p class="corpo justificado fontemenor">Localizado próximo de Bran, é um monumento nacional,
+        marco histórico da Roménia. A fortaleza situa-se na fronteira
+        entre a Transilvânia e a Valáquia.</p>
+    </article>
+
+    <article class="div_do_texto_secundáro inline-block tamanhoMax">
+
+      <a href="#"><img src="imagens/castelo-bran.jpg" alt="Castelo de Bran"></a>
+
+      <p class="titulo">Castelo de Bran</p>
+      <p class="corpo justificado fontemenor">Localizado próximo de Bran, é um monumento nacional,
+        marco histórico da Roménia. A fortaleza situa-se na fronteira
+        entre a Transilvânia e a Valáquia.</p>
+    </article>
+
+    <article class="div_do_texto_secundáro inline-block tamanhoMax">
+
+      <a href="#"><img src="imagens/castelo-bran.jpg" alt="Castelo de Bran"></a>
+
+      <p class="titulo">Castelo de Bran</p>
+      <p class="corpo justificado fontemenor">Localizado próximo de Bran, é um monumento nacional,
+        marco histórico da Roménia. A fortaleza situa-se na fronteira
+        entre a Transilvânia e a Valáquia.</p>
+    </article>
+
   </div> <!-- div texto_secundáro -->
-  <footer>
-    <div class="rodape">
-      <div class="popular-post div-rodape">
-        <h3><b>Informações do Site</b></h3>
-        <p>Hospedado em github.com</p>
-        <p class="clock">12-December-2020</p>
+
+  <!--FOOTER-->
+  <footer class="tamanhoMax ">
+    <div class="rodape corBranca">
+      <div class="popular-post div-rodape inline-block">
+        <h3 class="corBranca"><b>Informações do Site</b></h3>
+        <p class="justificado">Hospedado em github.com</p>
+        <p class="clock justificado">12-December-2020</p>
         <p>Última atualização registrada na data do dia: </p>
-        <p class="clock">13-December-2020</p>
+        <p class="clock justificado">13-December-2020</p>
       </div>
 
-      <div class="tags div-rodape">
-        <h3><b>Tags</b></h3>
-        <p>12 roteiros "de vampiro", Castelo Bran, Romenia, 
-          Drácula de Bram Stoker, Dublin, Irlanda, Bram Stoker, 
-          Forks, Estados Unidos, Stephenie Meyer, Crepúsculo, 
-          London Horror tours, vampiro, Whitby, Inglaterra, 
-          Vampire Café, Tóquio, terror, fantasma, susto, 
+      <div class="tags div-rodape inline-block">
+        <h3 class="corBranca"><b>Tags</b></h3>
+        <p class="justificado">12 roteiros "de vampiro", Castelo Bran, Romenia,
+          Drácula de Bram Stoker, Dublin, Irlanda, Bram Stoker,
+          Forks, Estados Unidos, Stephenie Meyer, Crepúsculo,
+          London Horror tours, vampiro, Whitby, Inglaterra,
+          Vampire Café, Tóquio, terror, fantasma, susto,
           curiosidades, Hellsing, animes.</p>
       </div>
 
-      <div class="about div-rodape">
-        <h3><b>Um pouco sobre nós</b></h3>
-        <p>A criação do site começou com uma ideia interessante 
-          a respeito de vampiros, após muitas pesquisas 
-          ele foi criado com a finalidade de mostrar 
-          conteúdos interessantes e reunir ideias a respeito, 
-          será incluso futuramente artigos de jogos, animes, 
-          e críticas de filmes, vale ressaltar que o site 
+      <div class="about div-rodape inline-block">
+        <h3 class="corBranca"><b>Um pouco sobre nós</b></h3>
+        <p class="justificado">A criação do site começou com uma ideia interessante
+          a respeito de vampiros, após muitas pesquisas
+          ele foi criado com a finalidade de mostrar
+          conteúdos interessantes e reunir ideias a respeito,
+          será incluso futuramente artigos de jogos, animes,
+          e críticas de filmes, vale ressaltar que o site
           é educacional.</p>
       </div>
 
-      <div class="get div-rodape">
-        <h3><b>Entre em contato</b></h3>
-        <p>Caso queira entrar em contato conosco, 
-          abaixo seguem os links do e-mail e página do 
-          github, qualquer dúvida pode nos retornar que em 
+      <div class="get div-rodape inline-block">
+        <h3 class="corBranca"><b>Entre em contato</b></h3>
+        <p class="justificado">Caso queira entrar em contato conosco,
+          abaixo seguem os links do e-mail e página do
+          github, qualquer dúvida pode nos retornar que em
           breve responderemos.</p>
-        <p class="locais">Fortaleza, Ce</p>
-        <p class="locais">samrm310@gmail.com</p>
-        <p id="github"><a href="https://github.com/SamuelJohnsonN" target="_blank">github.com/SamuelJohnsonN</a></p>
+        <p class="locais justificado">Fortaleza, Ce</p>
+        <p class="locais justificado">samrm310@gmail.com</p>
+        <p id="github" class="justificado"><a class="corBranca" href="https://github.com/SamuelJohnsonN"
+            target="_blank">github.com/SamuelJohnsonN</a></p>
       </div>
     </div> <!-- div rodape -->
-    
-    <div id="footer-2">
+
+    <div id="footer-2" class="centralizado">
       <p id="paragrafo-footer2">
         Este site foi feito com intuito educativo, não será utilizado de forma comercial.
       </p>
