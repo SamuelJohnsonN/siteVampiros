@@ -229,6 +229,7 @@ h3 {
 }
 
 .div_do_texto_secundáro {
+	vertical-align: top;
 	height: 450px;
 	border: 1px solid black;
 	margin:20px 5px 10px 5px ;
